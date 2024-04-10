@@ -6,7 +6,6 @@ import Header from '../layouts/Header'
 import InputDetails from '../layouts/InputDetails'
 import StoreData from '../layouts/StoreData'
 import Edit from '../layouts/Edit'
-
 const guestRouter = createBrowserRouter([
      {
         path: '/',
@@ -30,8 +29,8 @@ const userRouter = createBrowserRouter([
         <Outlet/>
         </>,
         children: [
-            {index : true, element: <InputDetails />},
-            {path : '/Data', element: <StoreData/>},
+            {index : true, element: <StoreData/> },
+            {path : '/Data', element:  <InputDetails/>},
             {path : '/edit/*', element: <Edit/>}
 
             

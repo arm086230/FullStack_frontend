@@ -7,8 +7,8 @@ const guesnav =[
 ]
 
 const usernav = [
-    {to : '/', text : "เพิ่มข้อมูลรถ"},
-    {to: '/data', text : 'ข้อมูลรถ'},
+    {to : '/', text : "ข้อมูลรถ"},
+    {to: '/data', text : 'เพิ่มข้อมูลรถ'},
     
 ]
 export default function Header() {
