@@ -12,7 +12,6 @@ export default function EditCar() {
     color: "",
     note: "",
   });
-
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -50,7 +49,6 @@ export default function EditCar() {
           },
         }
       );
-      console.log("Car details updated successfully:", response.data);
       alert("Car details updated successfully");
       navigate("/");
     } catch (error) {

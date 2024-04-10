@@ -2,13 +2,13 @@ import {Link , useNavigate} from 'react-router-dom'
 import useAuth from '../hooks/useAuth'
 
 const guesnav =[
-    {to : '/', text : 'Login'},
-    {to : '/register', text : 'Register'}
+    {to : '/', text : 'เข้าสู่ระบบ'},
+    {to : '/register', text : 'ลงทะเบียน'}
 ]
 
 const usernav = [
     {to : '/', text : "เพิ่มข้อมูลรถ"},
-    {to: '/data', text : 'ข้อมูลรถของคุณ'},
+    {to: '/data', text : 'ข้อมูลรถ'},
     
 ]
 export default function Header() {
@@ -34,7 +34,7 @@ export default function Header() {
         ))}
         {user?.id && (
           <li>
-            <Link to="#" onClick={hdlLogout}>Logout</Link>
+            <Link to="#" onClick={hdlLogout}>ออกจากระบบ</Link>
           </li>
         )}
 
