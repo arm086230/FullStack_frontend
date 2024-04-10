@@ -86,10 +86,10 @@ function Data({data}) {
       <td className="py-3 px-6">{data.color}</td>
       <td className="py-3 px-6">{data.note}</td>
       <td>
-        <button onClick={linktoedit} className="btn btn-outline">เเก้ไขข้อมูล</button>
+        <button onClick={linktoedit} className="btn btn-outline btn-accent">เเก้ไขข้อมูล</button>
       </td>
       <td>
-      <button className="btn btn-outline" onClick={hdlDelete}>ลบข้อมูล</button>
+      <button className="btn btn-outline btn-error" onClick={hdlDelete}>ลบข้อมูล</button>
       </td>
     </tr>
     
