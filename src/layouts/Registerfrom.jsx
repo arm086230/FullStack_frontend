@@ -48,7 +48,9 @@ export default function Registerfrom() {
         <div className="text-2xl font-black mb-5 text-black">Register Form</div>
         <form className="flex flex-col gap-2" onSubmit={hdlSubmit}>
           <label className="form-control">
-            <span className="label-text text-black">Name</span>
+            <span className="label-text text-black">
+              FirsName/lastName
+            </span>
             <input
               type="text"
               className="input input-bordered w-full"
